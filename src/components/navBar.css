@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&family=Kanit:ital,wght@0,400;0,700;1,500&family=Lato:wght@400;700&display=swap');
+
+.navBar-main{
+    width: 102%;
+    margin-left: -1%;
+    margin-top: -1rem;
+    height: 6rem;
+    background:rgb(243, 243, 243);
+    align-items: center;
+    padding-top: 2rem;
+    /* justify-content: center; */
+}
+
+.lista-de-links{
+    display: grid;
+    grid-template-columns: 12% 14% 64% 10%;
+}
+
+.lista-de-links li{
+    font-size: 30px;
+    list-style: none;
+    text-decoration: none;
+    width: 30%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    text-transform: none;
+}
+
+li:hover{
+    cursor: pointer;
+}
+
+.link-navBar{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+
+.jordan-icon{
+    width: 40%;
+    margin-top: -2rem;
+    cursor: pointer;
+}
+
+.nike-icon{
+    margin-left: 1%;
+    width: 40%;
+    height: 2rem;
+    cursor: pointer;
+}
+
+.icon-snkrs{
+    width: 24%;
+    margin-top: 0.2rem;
+}
+
+.icone-snkrs-red{
+    width: 6%;
+    cursor: pointer;
+    margin-top: -0.3rem;
+    margin-left: 0.3%;
+}
