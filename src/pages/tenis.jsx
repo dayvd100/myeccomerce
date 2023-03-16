@@ -24,7 +24,7 @@ const Tenis = () => {
     return(
         <div>
              <div className="pictures-main">
-             {pictursGrid.map((picture) => <h1 key={picture.id}><img style={{width: "80%", marginLeft: "10%", marginTop: "-2rem"}} src={picture.grid_picture_url} alt="img" id={picture.id + "rowId"} className="snkrs-pictures"/></h1>)}
+             {pictursGrid.map((picture) => <h1 key={picture.id}><img style={{width: "90%", marginLeft: "45%", marginTop: "-2rem"}} src={picture.grid_picture_url} alt="img" id={picture.id + "rowId"} className="snkrs-pictures"/></h1>)}
              {sneakers.map((sneaker) => <h1 key={sneaker.id}>{sneaker.brand_name}</h1>)}
              </div>
         </div>
